@@ -76,3 +76,16 @@ for vehicle in vehicles:
     print(f"Engine Status: {vehicle.start_engine()}")
     print(f"No. of Wheels: {vehicle.get_no_of_wheels()}")
     print()
+
+    
+'''
+Output:--
+LSP code --> 
+Vehicle Type: Car
+Engine Status: Engine Started
+No. of Wheels: 4
+
+Vehicle Type: Bicycle
+Engine Status: Bicycles don't have engines.
+No. of Wheels: 2
+'''
